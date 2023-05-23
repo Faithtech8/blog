@@ -36,20 +36,16 @@
                             color: #888;
 
                         }
-                    }
+                    
                 }
             }
-        }
-    }
+        
     
 } {
     
 }
 
 
-body {
-    background-color: lightgray
-    
     header {
         bakground-color:antiquewhite
         height: 66px;
@@ -60,7 +56,7 @@ body {
 
             
             }
-        }
+        
 
     
     
@@ -93,15 +89,17 @@ body {
                     display: -grid;
                     grid-template-columns: r3;300px;
                     gap: 100px;
+                }
 
 
                     .nav {
                         margin: 0 100px;
+                    }
                         
                             
                                 
-                            }
-                        }
+                            
+                        
 
 
                         
@@ -112,7 +110,7 @@ body {
                         }}
 
                     }
-                }
+                
             }
         }
         
