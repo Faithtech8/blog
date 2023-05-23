@@ -1,15 +1,11 @@
 a {
-    text-decoration: none;
-
-    li {
-        display: -grid;
-        padding: e5%;
         .social-section {
-            display: 
-            padding-top: 20%;
-            
+            display: flex;
+            display-ddirection: row;
+            align-items: center;
+            justify-content: space-around;
         }
-    }
+    
     }
 }
 }

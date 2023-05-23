@@ -1,27 +1,93 @@
-@import "first.css";
-@import "second.css";
-@import "third.css";
+@import url(first.css);
+@import url(second.css);
+@import url(third.css);
+
+@media  (max-width: 500px) {
+    
+    .header-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        border-width: 1px;
+        border: 1px solid red;
+        border-style: solid;
+    
+
+        .nav {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+
+            .nav li {
+                margin: 0 10px;
+
+                .blog-container 
+                {
+                
+                    display: grid;
+                    grid-template-columns: r3 300px;
+
+                    .blog-card {
+                        border: 1px solid indigo;
+                        .blog-card {
+                            font-family: sans-serif;
+                            font-size: 24px;
+                            color: #888;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+} {
+    
+}
+
 
 body {
-    background-color: white;
-    font-size: 14
-    ;
-    font color: color: blue;
+    background-color: lightgray
+    
+    header {
+        bakground-color:antiquewhite
+        height: 66px;
+        header .logo {
+            float: left;
+            height: inherit
+            margin-left: 2em;
 
-    footer {
-        font-size: smaller;
+            
+            }
+        }
+
+    
+    
+    
+    
+
+    
         
-        H
+    }
 
-        .navhomepage {
-            display: -flex;
-            flex-ddirection: row;
-            align-items: center;
+    
+    ;
+    
+            
+            
+        }
+        }
+        }
+
+
+
 
             ul {
                 list-style: none;
                 display: flex;
                 flex-direction: row;
+                font-size: 1.1em;
 
                 .blog-section {
                     display: -grid;
@@ -29,15 +95,20 @@ body {
                     gap: 100px;
 
 
-                    .navhomepage {
+                    .nav {
                         margin: 0 100px;
+                        
+                            
+                                
+                            }
+                        }
 
 
-                        h1 {
-                            font-size: font-size: 16;
+                        
+                        
 
                             
-                            }
+                            
                         }}
 
                     }

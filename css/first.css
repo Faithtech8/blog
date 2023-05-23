@@ -1,17 +1,18 @@
 h1{
     color: red;
-    font-size: larger;
+    font-size: x-large;
+
     
 
     .blog-card{
         color: blueviolet;
         
     }
-}
-z
 
-p {
-    color: antiquewhiteSS;
+
+}
+
+
     
 }
 U
@@ -19,6 +20,9 @@ U
 footer {
     color: indigo;
     font-size: smaller;
+    text-align:center;
+    font-weight: bold;
+    font-family: sans-serif;
 }
     
 
